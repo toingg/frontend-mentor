@@ -5,7 +5,7 @@ body {
 }
 
 .card-main {
-  max-width: 60vh;
+  max-width: 40vh;
   background-color: white;
   border: 1px solid black;
   border-radius: 15px;
@@ -95,23 +95,3 @@ p {
 @include media-breakpoint-up(lg) { ... }
 @include media-breakpoint-up(xl) { ... }
 @include media-breakpoint-up(xxl) { ... } */
-
-@media screen and (max-width: 570px) {
-  .card-main {
-    max-width: 40vh;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 15px;
-    box-shadow: 10px 10px;
-    transition: 0.5s;
-  }
-
-  .card-main:hover {
-    box-shadow: 20px 20px;
-    transition: 0.5s;
-    .title-card {
-      color: #f4d04e;
-      transition: 0.5s;
-    }
-  }
-}
