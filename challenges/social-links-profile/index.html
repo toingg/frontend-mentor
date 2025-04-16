@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Frontend Mentor | Social links profile | by toingg</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <style type="text/tailwindcss">
+      @theme {
+        --color-green-template: hsl(75, 94%, 57%);
+        --color-white-template: hsl(0, 0%, 100%);
+
+        --color-gray-template-1: hsl(0, 0%, 20%);
+ 
+  
+        --color-gray-template-2: hsl(0, 0%, 12%);
+        --color-gray-template-3: hsl(0, 0%, 8%);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-template-3">
+    <div class="flex flex-col justify-center items-center min-h-screen my-5">
+      <div
+        class="flex flex-col xl:w-1/4 sm:w-3/4 bg-gray-template-2 text-white items-center text-center py-10 gap-2 rounded-xl"
+      >
+        <img class="mb-5 w-24 h-24 rounded-full" src="assets/images/avatar-jessica.jpeg" />
+        <h2 class="font-semibold text-2xl">Jessica Randall</h2>
+        <h2 class="text-green-template text-sm font-semibold">London, United Kingdom</h2>
+        <p class="m-4">"Front-end developer and avid reader."</p>
+        <div
+          class="font-semibold py-3 m-1 rounded-md bg-gray-template-1 w-3/4 transition duration-500 hover:bg-green-template hover:text-black"
+        >
+          Github
+        </div>
+        <div
+          class="font-semibold py-3 m-1 rounded-md bg-gray-template-1 w-3/4 transition duration-500 hover:bg-green-template hover:text-black"
+        >
+          Frontend Mentor
+        </div>
+        <div
+          class="font-semibold py-3 m-1 rounded-md bg-gray-template-1 w-3/4 transition duration-500 hover:bg-green-template hover:text-black"
+        >
+          Linkedin
+        </div>
+        <div
+          class="font-semibold py-3 m-1 rounded-md bg-gray-template-1 w-3/4 transition duration-500 hover:bg-green-template hover:text-black"
+        >
+          Twitter
+        </div>
+        <div
+          class="font-semibold py-3 m-1 rounded-md bg-gray-template-1 w-3/4 transition duration-500 hover:bg-green-template hover:text-black"
+        >
+          Instagram
+        </div>
+      </div>
+      <div class="attribution mt-2 flex flex-col text-white font-semibold text-center">
+        <a href="https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm" target="_blank"
+          >Challenge by <span class="text-sky-600 hover:text-sky-200">Frontend Mentor</span></a
+        >
+        <a href="https://www.github.com/toingg"
+          >Coded by <span class="text-amber-400 hover:text-amber-100">Fachrizal A. aka toingg</span></a
+        >
+      </div>
+    </div>
+  </body>
+</html>

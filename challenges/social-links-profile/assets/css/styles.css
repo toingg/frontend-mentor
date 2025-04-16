@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+
+
+/* this theme not needed, its just for make the IntelliSense ON. The real one is in index html <style> */
+@theme {
+  --color-green-template: hsl(75, 94%, 57%);
+  --color-white-template: hsl(0, 0%, 100%);
+
+  --color-gray-template-1: hsl(0, 0%, 20%);
+  --color-gray-template-2: hsl(0, 0%, 12%);
+  --color-gray-template-3: hsl(0, 0%, 8%);
+}
+
+
+
+
